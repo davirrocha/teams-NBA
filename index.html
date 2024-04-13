@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./img/NBALogo.svg.png">
+    <title>LOBBY</title>
+</head>
+
+<body>
+
+    <header class="links-header">
+        <a href="https://www.youtube.com/@nbabrasil" class="links" target="_blank">Canal NBA Brasil</a>
+        <a href="https://www.instagram.com/nba/" class="links dois" target="_blank">Instagram NBA</a>
+        <a href="https://www.espn.com.br/nba/" class="links tres" target="_blank">NBA ESPN</a>
+
+
+
+        <img src="./img/NBALogo.svg.png" class="nba-header" alt="logo-nba">
+    </header>
+
+    <section class="content">
+        <a href="./lakers.html" class="link-times"> <img src="./img/logolakers.png" class="times"></a>
+        <div class="buttom-teams">
+            <button onclick="mudarLake() " class="lake">LAKERS</button>
+            <button onclick="mudarCelt()" class="celt">CELTICS</button>
+        </div>
+    </section>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    body {
+        background-color: #380E73;
+        ;
+    }
+
+    header {
+        background-color: #F2AC29;
+        padding: 20px;
+    }
+
+    .links {
+        color: #380E73;
+        font-size: 24px;
+        font-weight: 540;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #8630BF;
+    }
+
+    .nba-header {
+        position: absolute;
+        position: absolute;
+        top: 0px;
+        right: 9px;
+        width: 30px;
+    }
+
+    .times {
+        width: 257px;
+        height: 200px;
+    }
+
+
+
+    .content {
+        text-align: center;
+        margin-top: 60px;
+
+    }
+
+    button {
+        margin-top: 100px;
+        border-radius: 10px;
+        width: 110px;
+        border: none;
+    }
+
+    .lake {
+        color: #380E73;
+        background-color: #F2AC29;
+        font-weight: 800;
+    }
+
+    .celt {
+        color: #F2AA80;
+        background-color: #000000;
+        font-weight: 800;
+    }
+</style>
+
+
+<script src="./document.js"></script>
+
+</html>
