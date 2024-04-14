@@ -121,7 +121,7 @@ footer {
     }
 
     .east {
-        width: 100vw;
+        width: 50vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -133,7 +133,7 @@ footer {
 
     .west {
 
-        width: 100vw;
+        width: 50vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -149,7 +149,7 @@ footer {
 
     .script-bottom {
         padding-left: 1420px;
-        ;
+        
     }
 
 
