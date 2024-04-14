@@ -7,12 +7,14 @@
 
 body {
     background-color: #1D428A;
-    ;
+
 }
 
 header {
     background-color: #C8102E;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
+
+
 }
 
 .links {
@@ -32,30 +34,115 @@ a:hover {
     color: #1D428A;
 }
 
-.nba-header {
+.logo-header {
     position: absolute;
     position: absolute;
     top: 0px;
-    right: -6px;
+    right: 0px;
     width: 70px;
 }
 
-.east {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+    margin-top: 150px;
+
+
 }
+
+.teams {
+    width: 150px;
+
+}
+
+.east {
+    width: auto;
+    padding-left: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #C8102E;
+    margin-bottom: 50px;
+
+}
+
+.scroll {
+    margin-left: 30px;
+}
+
 
 .west {
+    width: auto;
+    padding-left: 730px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #C8102E;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+
+
+footer {
+    margin-top: 30px;
+}
+
+.img-footer {
+    width: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 
 }
 
-button {
-    margin-top: 100px;
-    border-radius: 10px;
-    width: 110px;
-    border: none;
+@media screen and (max-width: 800px) {
+
+    header {
+        width: 100vw;
+        height: 80px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .logo-header {
+        margin-top: 5px;
+    }
+
+    main {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .east {
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .west {
+        width: 20vw;
+        display: flex;
+        padding-left: 2170px;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .scroll {
+        margin-left: 1170px;
+    }
 }
