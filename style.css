@@ -13,8 +13,6 @@ body {
 header {
     background-color: #C8102E;
     padding: 20px 0 20px 20px;
-
-
 }
 
 .links {
@@ -44,8 +42,6 @@ a:hover {
 
 main {
     margin-top: 150px;
-
-
 }
 
 .teams {
@@ -68,7 +64,7 @@ main {
 }
 
 .scroll {
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -98,6 +94,11 @@ footer {
 
 @media screen and (max-width: 800px) {
 
+    body {
+        width: 24vw;
+        height: 50vh;
+    }
+
     header {
         width: 100vw;
         height: 80px;
@@ -112,7 +113,7 @@ footer {
     }
 
     main {
-        width: auto;
+        margin-top: 50vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -132,9 +133,9 @@ footer {
     }
 
     .west {
+
         width: 20vw;
         display: flex;
-        padding-left: 2170px;
         flex-direction: row;
         justify-content: center;
         align-content: center;
@@ -144,6 +145,13 @@ footer {
     }
 
     .scroll {
-        margin-left: 1170px;
+        padding-left: 1420px;
     }
+
+    .script-bottom {
+        padding-left: 1420px;
+        ;
+    }
+
+
 }
