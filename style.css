@@ -5,162 +5,57 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-
 body {
-    background-color: #380E73;
+    background-color: #1D428A;
+    ;
 }
 
-
-.hearder {
+header {
+    background-color: #C8102E;
     padding: 20px;
-    position: sticky;
-    top: 0px;
-    background-color: #F2AC29;
 }
 
-a {
-    color: #380E73;
-    font-size: 25px;
+.links {
+    color: #ffffff;
+    font-size: 24px;
     font-weight: 540;
     text-decoration: none;
     margin-right: 30px;
+}
 
-
-
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
-    color: #8630BF;
+    color: #1D428A;
 }
 
-.logo-header {
-    width: 100px;
-    display: inline-block;
+.nba-header {
     position: absolute;
-    top: 2px;
-    right: 25px;
+    position: absolute;
+    top: 0px;
+    right: -6px;
+    width: 70px;
 }
 
-
-h1 {
-    font-size: 100px;
-    color: #F2DB66;
-    text-align: center;
-    margin-bottom: 100px;
+.east {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.titulo::after {
-    content: "👑";
-
-}
-
-.sub-title {
-    color: #F2DB66;
-    font-size: 50px;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    line-height: 60px;
+.west {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.content {
-    font-size: 30px;
-    line-height: 40px;
-    margin-left: 90px;
-    color: #ffffff;
-}
-
-p {
-    width: 800px;
-}
-
-
-.img-celtics {
-    width: 77px;
-    transition: 1px;
-}
-
-.img-celtics:hover {
-    transform: translateY(-5px);
-
-}
-
-
-
-footer {
-    margin-top: 60px;
-    background-color: #F2AC29;
-    padding: 5px;
-    text-align: center;
-}
-
-
-
-@media screen and (max-width: 800px) {
-
-
-
-    .customlink {
-        display: none;
-
-    }
-
-
-    .logo-header {
-        width: 60px;
-        display: inline-block;
-        position: absolute;
-        top: 2px;
-        right: 25px;
-
-    }
-
-
-    .hearder {
-        width: 100%;
-        height: 50%;
-
-    }
-
-
-    .tudo {
-        margin: 0px;
-        padding: 0;
-        width: auto;
-
-    }
-
-    h1 {
-        font-size: 40px;
-
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 80px;
-    }
-
-    .sub-title {
-
-        font-size: 31px;
-        margin-left: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        line-height: 60px;
-        text-align: center;
-
-    }
-
-    .content {
-        width: 100%;
-        margin: 0;
-        font-size: 20px;
-        text-align: left;
-
-    }
-
-
-
-
-
-
+button {
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 110px;
+    border: none;
 }

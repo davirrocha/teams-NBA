@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,700&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="./img/nbalogo.png">
+    <link rel="icon" href="./assets/nbalogo.png">
+    <link rel="stylesheet" href="./style.css">
     <title>LOBBY</title>
 </head>
 
@@ -18,91 +19,22 @@
         <a href="https://www.youtube.com/@nbabrasil" class="links" target="_blank">Canal NBA Brasil</a>
         <a href="https://www.instagram.com/nba/" class="links dois" target="_blank">Instagram NBA</a>
         <a href="https://www.espn.com.br/nba/" class="links tres" target="_blank">NBA ESPN</a>
-        <img src="./img/nbalogo.png" class="nba-header" alt="logo-nba">
+        <img src="./assets/nbalogo.png" class="nba-header" alt="logo-nba">
     </header>
+    <main>
+        <section class="east">
+            <a href="./lakers/lakers.html"> <img src="./assets/lakerslogo.png" alt="logo-lakers"></a>
+            <a href=""><img src="./assets/rocketslogo.png" alt="logo-rockets"></a>
+        </section>
 
-    <section class="content">
-        <a href="./lakers.html" class="link-times"> <img src="./img/lakerslogo.png" class="times"></a>
-        <div class="buttom-teams">
-            <button onclick="mudarLake() " class="lake">LAKERS</button>
-            <button onclick="mudarCelt()" class="celt">CELTICS</button>
-        </div>
-    </section>
+        <section class="west">
+            <a href="./celtics/celtics.html"> <img src="./assets/celticslogo.png" alt="logo-celtics"></a>
+            <a href=""> <img src="./assets/netslogo.png" alt="logo-lakers"></a>
+        </section>
+    </main>
 </body>
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'DM Sans', sans-serif;
-    }
 
-    body {
-        background-color: #380E73;
-        ;
-    }
-
-    header {
-        background-color: #F2AC29;
-        padding: 20px;
-    }
-
-    .links {
-        color: #380E73;
-        font-size: 24px;
-        font-weight: 540;
-        text-decoration: none;
-        margin-right: 30px;
-    }
-
-    a {
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    a:hover {
-        color: #8630BF;
-    }
-
-    .nba-header {
-        position: absolute;
-        position: absolute;
-        top: 0px;
-        right: 9px;
-        width: 30px;
-    }
-
-    .times {
-        width: 257px;
-        height: 200px;
-    }
-
-
-
-    .content {
-        text-align: center;
-        margin-top: 60px;
-
-    }
-
-    button {
-        margin-top: 100px;
-        border-radius: 10px;
-        width: 110px;
-        border: none;
-    }
-
-    .lake {
-        color: #380E73;
-        background-color: #F2AC29;
-        font-weight: 800;
-    }
-
-    .celt {
-        color: #F2AA80;
-        background-color: #000000;
-        font-weight: 800;
-    }
 </style>
 
 
