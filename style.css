@@ -63,11 +63,12 @@ main {
     align-items: center;
     background-color: #C8102E;
     margin-bottom: 50px;
-
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
 .scroll {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
