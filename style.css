@@ -99,7 +99,7 @@ footer {
     }
 
     header {
-        width: 100vw;
+        width: 410px;
         height: 80px;
     }
 
@@ -129,6 +129,7 @@ footer {
         align-items: center;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
+       
     }
 
     .west {
@@ -149,8 +150,7 @@ footer {
 
     .script-bottom {
         padding-left: 1420px;
-        
-    }
 
+    }
 
 }
