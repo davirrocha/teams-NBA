@@ -56,7 +56,7 @@ li {
 .scroll {
     display: flex;
     align-items: center;
-    background-color: #C8102E;
+    background-color: #a40621;
     margin-bottom: 50px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;

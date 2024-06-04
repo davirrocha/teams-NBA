@@ -1,4 +1,4 @@
-let eats = document.querySelector(".east")
+let east = document.querySelector(".east")
 let west = document.querySelector(".west")
 let eastList = ''
 let westList = ''
@@ -10,11 +10,9 @@ eastOptions.forEach(item => {
             <a href="${item.link}" target="_blank">
             <img src="${item.img}">
              </a>
-            </li>
+        </li>
         `
-    eats.innerHTML = eastList
-
-
+    east.innerHTML = eastList
 })
 
 
