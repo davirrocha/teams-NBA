@@ -6,8 +6,8 @@ Este projeto é uma página web dedicada aos fãs da NBA. Ele apresenta links pa
 
 ## Tecnologias Utilizadas
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-JavaScript
+- JavaScript
