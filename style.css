@@ -6,18 +6,20 @@
 }
 
 body {
-    width: 100vw;
-    height: 50vh;
+    overflow: hidden;
     background-color: #1D428A;
 
 }
 
 header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
     background-color: #C8102E;
-    padding: 20px 0 20px 20px;
+
 }
-
-
 
 a {
     text-decoration: none;
@@ -34,19 +36,18 @@ a:hover {
 }
 
 .logo-header {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 70px;
+    width: 80px;
 }
 
 main {
-    margin-top: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-img {
+.img-teams {
     width: 150px;
-
 }
 
 li {
@@ -86,21 +87,15 @@ li {
     }
 
     header {
-        width: 100vw;
-        height: 80px;
+        height: 95px;
     }
 
     .links {
         display: none;
     }
 
-    .logo-header {
-        margin-top: 5px;
-        margin-left: 5px;
-    }
 
     main {
-        margin-top: 50vw;
         display: flex;
         flex-direction: column;
         justify-content: center;

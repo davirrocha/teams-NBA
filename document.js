@@ -8,7 +8,7 @@ eastOptions.forEach(item => {
     eastList += `
         <li>
             <a href="${item.link}" target="_blank">
-            <img src="${item.img}">
+            <img src="${item.img}" class="img-teams">
              </a>
         </li>
         `
@@ -20,7 +20,7 @@ westOptions.forEach(item => {
     westList += `
         <li>
             <a href="${item.link}" target="_blank">
-            <img src="${item.img}">
+            <img src="${item.img}" class="img-teams">
             </a>
         </li>
     `
